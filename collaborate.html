@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="logo.png" />
+  <title>Collaborate with Us</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fbd3e3;
+      color: #333;
+    }
+
+    header {
+      background-color: #ed8fa5;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: white;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input,
+    textarea,
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #ed8fa5;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d76b87;
+    }
+
+    #logo img {
+      max-width: 80px;
+      float: right;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ed8fa5; /* Horizontal line color */
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center; /* Center-align the content within the footer */
+      background-color: #ed8fa5; /* Pink background color for the footer */
+      color: #fff;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <img src="logo.png" alt="Muskaan Foundation Logo">
+    </div>
+    <div>
+      <h1>Muskaan Foundation</h1>
+      <p>- Empowering Lives, Creating Smiles</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Opportunities for Collaboration</h2>
+    <p>We are thrilled to invite you to collaborate with us and be part of something extraordinary. Fill out the form below to express your interest, and let's create meaningful partnerships together!</p>
+
+    <form id="collaborationForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">How would you like to collaborate with us?</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <footer>
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out to us for any queries!</p>
+    
+    <!-- Replace the following information with your actual contact details -->
+    <p>Email: <a href="mailto:info@example.com">muskaanfoundation@gmail.com</a></p>
+    <p>Phone: +91 1234567890</p>
+
+    <!-- You can also add links to your social media profiles -->
+    <p>Follow us on: 
+        <a href="https://www.facebook.com/muskaanfoundation" target="_blank">Facebook</a>,
+        <a href="https://twitter.com/muskaanfoundation" target="_blank">Twitter</a>,
+        <a href="https://www.instagram.com/muskaanfoundation" target="_blank">Instagram</a>
+    </p>
+  </footer>
+</body>
+</html>
